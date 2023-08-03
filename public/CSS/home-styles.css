@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Jack Input";
+    src: url("../../assets/fonts/Jack\ Input.TTF");
+}
+
+@font-face {
+    font-family: "Just In Case";
+    src: url("../../assets/fonts/Just\ In\ Case.otf");
+}
+
+html {
+    background-color: #fff59e;  
+}
+
+.personal-photo {
+    height: 20rem;
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+}
+
+div.section-container > * {
+    font-family: "Jack Input";
+}
+
+.section-container{
+    display: flex;
+    gap: 5rem;
+    padding: 10px;
+    color: #374045;
+    font-size: 1.1rem;
+}
+
+.personal-card {
+    text-align: center;
+}
+
+#Name {
+    font-family: "Just In Case";
+    color: #374045;
+    font-size: 3rem;
+}
+
+.personal-info {
+    font-family: "Poiret One";
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #d89216;
+    letter-spacing: 3px;;
+}
+
+.intro-passage {
+    width: 55vh;
+    text-align: center;
+}
