@@ -1,0 +1,110 @@
+a {
+    color: inherit;
+}
+
+html {
+    background-color: #fff59e;
+}
+
+@font-face {
+    font-family: "Jack Input";
+    src: url("../../assets/fonts/Jack\ Input.TTF");
+}
+
+@font-face {
+    font-family: "Just In Case";
+    src: url("../../assets/fonts/Just\ In\ Case.otf");
+}
+
+@font-face {
+    font-family: "Anime Face";
+    src: url("../../assets/fonts/Anime\ Face.ttf");
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 7rem;
+    padding-left: 50px;
+    padding-right: 85px;
+}
+
+.section-container {
+    display: flex;
+    gap: 5.6rem;
+    color: #374045;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 7rem;
+}
+
+div.section-container > * {
+    font-family: "Jack Input";
+}
+
+.container {
+    text-align: center;
+    background-color: #FFF6E0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #61677a;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.skill {
+    background-color: #61677A;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 1px gray;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+h1 {
+    font-family: "Just In Case";
+    font-size: 5rem;
+    color: #272829;
+}
+
+h2 {
+    font-family: "Anime Face";
+    font-size: 2rem;
+    color: #D8D9DA;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1ft;
+    gap: 10px;
+    padding: 20px;
+}
+
+li {
+    font-family: "Poiret One";
+    color: #D8D9DA;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+img.icon {
+    width: 200px;
+}
+
+.rating {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.star {
+    width: 40px;
+}
