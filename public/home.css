@@ -1,0 +1,30 @@
+.h-sec {
+    z-index: 9;
+    background-color: rgba(51, 49, 59, 1);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.hello {
+    padding-top: 200px;
+    padding-bottom: 90px;
+    font-family: "Just In Case";
+    width: 500px;
+    mix-blend-mode: color-dodge;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    text-shadow: 3px 3px 0px rgba(131, 76, 105, 0.6);
+    font-family: "Sanchez";
+    font-size: 1.7rem;
+    color: #e6f5ff;
+    width: 55%;
+}

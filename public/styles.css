@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Typo Grotesk";
+    src: url("../assets/fonts/Typo\ Grotesk.otf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#drop {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#drop-down {
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.navContainer {
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    background-color: #2C3333;
+    padding: 20px;
+    position: fixed;
+    transition: 0.5s ease-out;
+}
+
+.navbar-hidden {
+    transform: translateY(-63px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s ease-out;
+}
+
+.nav {
+    font-family: "Typo Grotesk";
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #A5C9CA;
+    margin-right: 10px;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.nav:hover {
+    background-color: #E7F6F2;
+    color: #2C3333;
+    transition: 0.5s;
+}
+
+.active {
+    color: #2C3333;
+    background-color: #E7F6F2;
+}
+
+.social {
+    width: 40px;
+    position: absolute;
+    right: 70px;
+    transition: 0.5s;
+}
+
+.social:hover {
+    scale: 1.2;
+    transition: 0.5s;
+}
+
+#insta {
+    width: 45px;
+    right: 120px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.section {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+#name {
+    text-shadow: 3px 3px 0px #395B64;
+    position: absolute;
+    top: 0;
+    font-family: "Coiny";
+    font-size: 2rem;
+    color: #E7F6F2;
+}
